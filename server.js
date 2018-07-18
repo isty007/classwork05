@@ -13,8 +13,8 @@ app.get('/',function(req,res){
 app.get('/about',function(req,res){
   res.sendFile(__dirname+'/about.html');
 });
-app.get('/email',function(req,res){
-  res.sendFile(__dirname+'/email.html');
+app.get('/ABCD',function(req,res){
+  res.sendFile(__dirname+'/ABCD.html');
 });
 app.post('/submit_user',function(req,res)
 {
